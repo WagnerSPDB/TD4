@@ -1,0 +1,95 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.transparent-input {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.transparent-input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: black; /* Garante que a borda permaneça preta ao focar */
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background: linear-gradient(45deg, #77f9fd, #e3e5eb);
+}
+
+.display-1{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+
+li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.footer-text {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-icons {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
+  
+}
+
+.footer-icons .list-inline-item {
+  margin-right: 10px;
+  align-items: center;
+        justify-content: center;
+}
+
+.custom-footer {
+  background-color: #247ba0; /* Substitua por qualquer cor desejada */
+}
+
+.custom-footer .footer-text {
+  color: black; /* Cor do texto específica para o "copy" */
+}
+
+
+.table-centered th, .table-centered td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-bordered-black {
+  border-color: black !important;
+}
+
+.table-bordered-black th,
+.table-bordered-black td {
+  border-color: black !important;
+}

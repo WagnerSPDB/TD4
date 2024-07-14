@@ -1,0 +1,34 @@
+@model td4.Models.ListaDeTarefasModel
+
+@{
+    ViewData["Title"] = "Editar Tarefa na Lista";
+}
+
+<h1>Editar Tarefa na Lista</h1>
+
+<form asp-action="EditarTarefaNaLista" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="Tarefa" class="form-label">Tarefa:</label>
+        <select asp-for="Tarefa" class="form-select transparent-input" asp-items="ViewBag.Tarefas">
+            <option value="">Selecione uma tarefa</option>
+        </select>
+        <span asp-validation-for="Tarefa" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="data" class="form-label">Data:</label>
+        <input type="date" id="data" name="data" class="form-control transparent-input" value="@ViewData["DataAtual"]">
+        <span asp-validation-for="Hora" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label for="hora" class="form-label">Hora:</label>
+        <input type="time" id="hora" name="hora" class="form-control transparent-input" value="@Model.Hora.ToString(@"hh\:mm")">
+        <span asp-validation-for="Hora" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+</form>

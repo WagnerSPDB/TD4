@@ -1,0 +1,38 @@
+@model IEnumerable<td4.Models.CategoriaModel>
+
+@{
+    ViewData["Title"] = "Categorias";
+}
+
+<div class="d-flex justify-content-between align-items-center">
+    <h1>Categorias</h1>
+    <a role="button" class="btn btn-primary" asp-controller="Categoria" asp-action="CriarCategoria">Adicionar Categoria</a>
+</div>
+
+<table class="table table-bordered table-centered table-bordered-black">
+    <thead>
+        <tr>
+            <th colspan="3" class="text-center">Categorias</th>
+        </tr>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Opções</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var categoria in Model)
+        {
+            <tr>
+                <th scope="row">@categoria.Id</th>
+                <td>@categoria.Nome</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <a role="button" class="btn btn-primary" asp-controller="Categoria" asp-action="EditarCategoria" asp-route-id="@categoria.Id">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="Categoria" asp-action="RemoverCategoria" asp-route-id="@categoria.Id">Remover</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

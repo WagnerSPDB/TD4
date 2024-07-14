@@ -1,0 +1,38 @@
+@model IEnumerable<td4.Models.TarefaModel>
+
+@{
+    ViewData["Title"] = "Tarefas";
+}
+
+<div class="d-flex justify-content-between align-items-center">
+    <h1>Tarefas</h1>
+    <a role="button" class="btn btn-primary" asp-controller="Tarefa" asp-action="CriarTarefa">Adicionar Tarefa</a>
+</div>
+
+<table class="table table-bordered table-centered table-bordered-black">
+    <thead>
+        <tr>
+            <th colspan="4" class="text-center">Tarefas</th>
+        </tr>
+        <tr>
+            <th>#</th>
+            <th>Nome</th>
+            <th>Categoria</th>
+            <th>Opções</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tarefa in Model)
+        {
+            <tr>
+                <td>@tarefa.Id</td>
+                <td>@tarefa.Nome</td>
+                <td>@tarefa.Categoria</td>
+                <td>
+                    <a role="button" class="btn btn-primary" asp-controller="Tarefa" asp-action="EditarTarefa" asp-route-id="@tarefa.Id">Editar</a>
+                    <a role="button" class="btn btn-danger" asp-controller="Tarefa" asp-action="RemoverTarefa" asp-route-id="@tarefa.Id">Remover</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

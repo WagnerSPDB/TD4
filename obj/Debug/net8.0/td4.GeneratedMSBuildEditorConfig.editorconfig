@@ -1,0 +1,91 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = td4
+build_property.RootNamespace = td4
+build_property.ProjectDir = C:\Users\Lu762\OneDrive\Área de Trabalho\SPDB\2024.1\WEB\TD4 - Web\td4\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Lu762\OneDrive\Área de Trabalho\SPDB\2024.1\WEB\TD4 - Web\td4
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/Categoria/CriarCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyaWFyQ2F0ZWdvcmlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/Categoria/EditarCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXRhckNhdGVnb3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/Categoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/Categoria/RemoverCategoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXFJlbW92ZXJDYXRlZ29yaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/ListaDeTarefas/AdicionarTarefaNaLista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFEZVRhcmVmYXNcQWRpY2lvbmFyVGFyZWZhTmFMaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/ListaDeTarefas/EditarTarefaNaLista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFEZVRhcmVmYXNcRWRpdGFyVGFyZWZhTmFMaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/ListaDeTarefas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFEZVRhcmVmYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/ListaDeTarefas/RemoverTarefaDaLista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFEZVRhcmVmYXNcUmVtb3ZlclRhcmVmYURhTGlzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/Tarefa/CriarTarefa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhXENyaWFyVGFyZWZhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/Tarefa/EditarTarefa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhXEVkaXRhclRhcmVmYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/Tarefa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/Tarefa/RemoverTarefa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWZhXFJlbW92ZXJUYXJlZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lu762/OneDrive/Área de Trabalho/SPDB/2024.1/WEB/TD4 - Web/td4/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-h59fzlhzaw

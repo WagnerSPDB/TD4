@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\td4.props" />
+</Project>

@@ -1,0 +1,42 @@
+@model IEnumerable<td4.Models.ListaDeTarefasModel>
+
+@{
+    ViewData["Title"] = "Lista de Tarefas";
+}
+
+<div class="d-flex justify-content-between align-items-center">
+    <h1> Lista de Tarefas </h1>
+    <a role="button" class="btn btn-primary" asp-controller="ListaDeTarefas" asp-action="AdicionarTarefaNaLista">Adicionar Tarefa na Lista</a>
+</div>
+
+<table class="table table-bordered table-centered table-bordered-black">
+    <thead>
+        <tr>
+            <th colspan="5" class="text-center">Lista de Tarefas</th>
+        </tr>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Tarefa</th>
+            <th scope="col">Data</th>
+            <th scope="col">Hora</th>
+            <th scope="col">Opções</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var lista in Model)
+        {
+            <tr>
+                <th scope="row">@lista.Id</th>
+                <td>@lista.Tarefa</td>
+                <td>@lista.Data.Day/@lista.Data.Month</td>
+                <td>@lista.Hora.ToString(@"hh\:mm")</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <a role="button" class="btn btn-primary" asp-controller="ListaDeTarefas" asp-action="EditarTarefaNaLista" asp-route-id="@lista.Id">Editar</a>
+                        <a role="button" class="btn btn-danger" asp-controller="ListaDeTarefas" asp-action="RemoverTarefaDaLista" asp-route-id="@lista.Id">Remover</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

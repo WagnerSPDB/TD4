@@ -1,0 +1,24 @@
+@model td4.Models.TarefaModel
+
+@{
+    ViewData["Title"] = "Criar Tarefa";
+}
+
+<h1>Criar Tarefa</h1>
+
+<form asp-action="CriarTarefa" method="post">
+    <div class="mb-3">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <label asp-for="Nome" class="form-label">Nome da Tarefa</label>
+        <input asp-for="Nome" class="form-control transparent-input" placeholder="Digite o nome da tarefa" autocomplete="off">
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Categoria" class="form-label">Categoria</label>
+        <select asp-for="Categoria" class="form-select transparent-input" asp-items="ViewBag.Categorias">
+            <option value="">Selecione uma categoria</option>
+        </select>
+        <span asp-validation-for="Categoria" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
